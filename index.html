@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Social Media Dashboard</title>
+
+</head>
+
+<body>
+  <div class="head">
+    <div class="container">
+      <div class="row align-items-center">
+        <h1>Social Media Dashboard<p>Total Followers: 23,004</p>
+        </h1>
+
+
+        <div class="dark-mode ml-auto">Dark Mode <label class="switch">
+            <input onclick="dark();" type="checkbox" checked>
+            <span class="slider round"></span>
+          </label></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-2 col-md-5 myCard facebook">
+        <h3 class="title"><img class="pr-1" src="images/icon-facebook.svg" alt="" srcset="">   @nathanf</h3>
+        <strong class="count">1987</strong>
+        <p>FOLLOWERS</p>
+        <div class="gain"><img src="images/icon-up.svg" alt=""> 12 Today</div>
+      </div>
+
+      <div class="col-lg-2 col-md-5 myCard twitter">
+        <h3 class="title"><img class="pr-1" src="images/icon-twitter.svg" alt=""> @nathanf</h3>
+        <strong class="count">1044</strong>
+        <p>FOLLOWERS</p>
+        <div class="gain"><img src="images/icon-up.svg" alt=""> 99 Today</div>
+      </div>
+
+      <div class="col-lg-2 col-md-5 myCard instagram">
+        <h3 class="title"><img class="pr-1" src="images/icon-instagram.svg" alt=""> @realnathanf</h3>
+        <strong class="count">11k</strong>
+        <p>FOLLOWERS</p>
+        <div class="gain"><img src="images/icon-up.svg" alt=""> 1099 Today</div>
+      </div>
+
+      <div class="col-lg-2 col-md-5 myCard youtube">
+        <h3 class="title"><img class="pr-1" src="images/icon-youtube.svg" alt=""> Nathan F.</h3>
+        <strong class="count">8239</strong>
+        <p>SUBSCRIBERS</p>
+        <div class="lose"><img src="images/icon-down.svg" alt=""> 144 Today</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="head">
+    <div class="container">
+      <div class="row ">
+        <h2>Overview - Today</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-2 col-md-5 myCard detailCard">
+        <div class="row">
+          <div class="title">Page Views</div>
+          <div class="ml-auto"><img src="images/icon-facebook.svg" alt=""></div>
+
+        </div>
+        <div class="row pt-4 align-items-end">
+          <div class="count">87</div>
+          <div class="ml-auto gain"><img src="images/icon-up.svg" alt=""> 3%</div>
+        </div>
+        
+        
+        
+      </div>
+      <div class="col-lg-2 col-md-5 myCard detailCard">
+        <div class="row">
+          <div class="title">Likes</div>
+          <div class="ml-auto"><img src="images/icon-facebook.svg" alt=""></div>
+
+        </div>
+        <div class="row pt-4 align-items-end">
+          <div class="count">52</div>
+          <div class="ml-auto lose"><img src="images/icon-down.svg" alt=""> 2%</div>
+        </div>
+        
+        
+        </div>
+      <div class="col-lg-2 col-md-5 myCard detailCard">
+        <div class="row">
+          <div class="title">Likes</div>
+          <div class="ml-auto"><img src="images/icon-instagram.svg" alt=""></div>
+
+        </div>
+        <div class="row pt-4 align-items-end">
+          <div class="count">5462</div>
+          <div class="ml-auto gain"><img src="images/icon-up.svg" alt=""> 2257%</div>
+        </div>
+        
+        
+        </div>
+      <div class="col-lg-2 col-md-5 myCard detailCard">
+        <div class="row">
+          <div class="title">Profile Views</div>
+          <div class="ml-auto"><img src="images/icon-instagram.svg" alt=""></div>
+
+        </div>
+        <div class="row pt-4 align-items-end">
+          <div class="count">52k</div>
+          <div class="ml-auto gain"><img src="images/icon-up.svg" alt=""> 1375%</div>
+        </div>
+        
+        
+        </div>
+    </div>
+  </div>
+  <div class="container pt-3">
+    <div class="row justify-content-between">
+      <div class="col-lg-2 col-md-5 myCard detailCard">
+        <div class="row">
+          <div class="title"> Retweets</div>
+          <div class="ml-auto"><img src="images/icon-twitter.svg" alt=""></div>
+
+        </div>
+        <div class="row pt-4 align-items-end">
+          <div class="count">117</div>
+          <div class="ml-auto gain"><img src="images/icon-up.svg" alt=""> 303%</div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-5 myCard detailCard">
+        <div class="row">
+          <div class="title">Likes</div>
+          <div class="ml-auto"><img src="images/icon-twitter.svg" alt=""></div>
+
+        </div>
+        <div class="row pt-4 align-items-end">
+          <div class="count">507</div>
+          <div class="ml-auto gain"><img src="images/icon-up.svg" alt=""> 553%</div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-5 myCard detailCard">
+        <div class="row">
+          <div class="title">Likes</div>
+          <div class="ml-auto"><img src="images/icon-youtube.svg" alt=""></div>
+
+        </div>
+        <div class="row pt-4 align-items-end">
+          <div class="count">107</div>
+          <div class="ml-auto lose"><img src="images/icon-down.svg" alt=""> 19%</div>
+        </div>
+
+
+      </div>
+      <div class="col-lg-2 col-md-5 myCard detailCard">
+        <div class="row">
+          <div class="title">Total Views</div>
+          <div class="ml-auto"><img src="images/icon-youtube.svg" alt=""></div>
+
+        </div>
+        <div class="row pt-4 align-items-end">
+          <div class="count">1407</div>
+          <div class="ml-auto lose"><img src="images/icon-down.svg" alt=""> 12%</div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer></footer>
+
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
